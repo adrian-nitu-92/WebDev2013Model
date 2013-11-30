@@ -35,6 +35,7 @@ Task-uri:
 Referinte:
 * http://guides.rubyonrails.org/
 * http://stackoverflow.com/questions/9192130/like-clause-with-rails-3-and-sqlite
+* Prezentarea de la curs pe care o gasiti in folder-ul "docs"
 
 Daca aveti rails 4 si intrati in consola si aveti problema aceasta:
 
