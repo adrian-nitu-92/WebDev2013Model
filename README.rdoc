@@ -34,22 +34,31 @@ Task-uri:
  song.save
 
 2 Creati o actiune noua numita "filter" in controller-ul songs si afisati sub ce forma preferati:
+
 2.1. Cantecele care dureaza mai mult de 140 de secunde
+
 2.2. Cantecele dintre anii 1970 si 1995
+
 2.3. Playlist-urile pentru winamp
+
 2.4. Cantecele care sunt cantate in Winamp
+
 2.5. Cantecele ai caror autori au anul mai mare de 1985
+
 2.6. Autorii care au in nume "Author" 
 
 Referinte:
 1. http://guides.rubyonrails.org/
+
 2. http://stackoverflow.com/questions/9192130/like-clause-with-rails-3-and-sqlite
+
 3. Prezentarea de la curs pe care o gasiti in folder-ul "docs"
 
 Daca aveti rails 4 si intrati in consola si aveti problema aceasta:
 
-=> 1.9.3-p448 :001 > Playlist
-=> Playlist(no database connection)
+1.9.3-p448 :001 > Playlist
+
+Playlist(no database connection)
 
 Dati comanda: Playlist.connection
 
