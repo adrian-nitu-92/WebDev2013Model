@@ -9,20 +9,20 @@ Task-uri:
 * Daca nu aveti deja proiectul de la curs, fork-uiti repository-ul acesta pe repo-ul vostru dupa care clonati-l la voi pe laptop
 
 * Intrati in consola ($rails console) si creati 3 cantece, 3 autori si 3 playlist-uri dupa forma:
-** song = Song.new(:title => "Song1", :duration => 120)
-** song.build_author(:name => "Author1", :year => DateTime.new(1980))
-** song.build_playlist(:name => "Playlist1", :player_name => "Winamp")
-** song.save
+..* song = Song.new(:title => "Song1", :duration => 120)
+..* song.build_author(:name => "Author1", :year => DateTime.new(1980))
+..* song.build_playlist(:name => "Playlist1", :player_name => "Winamp")
+..* song.save
 
-** song = Song.new(:title => "Song2", :duration => 150)
-** song.build_author(:name => "Author2", :year => DateTime.new(1990))
-** song.build_playlist(:name => "Playlist2", :player_name => "Winamp")
-** song.save
+..* song = Song.new(:title => "Song2", :duration => 150)
+..* song.build_author(:name => "Author2", :year => DateTime.new(1990))
+..* song.build_playlist(:name => "Playlist2", :player_name => "Winamp")
+..* song.save
 
-** song = Song.new(:title => "Song3", :duration => 220)
-** song.build_author(:name => "Author3", :year => DateTime.new(2000))
-** song.build_playlist(:name => "Playlist3", :player_name => "FooBar")
-** song.save
+..* song = Song.new(:title => "Song3", :duration => 220)
+..* song.build_author(:name => "Author3", :year => DateTime.new(2000))
+..* song.build_playlist(:name => "Playlist3", :player_name => "FooBar")
+..* song.save
 
 * Creati o actiune noua numita "filter" in controller-ul songs si afisati sub ce forma preferati:
 ** Cantecele care dureaza mai mult de 140 de secunde
