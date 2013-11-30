@@ -47,7 +47,10 @@ Task-uri:
 
 2.6. Autorii care au in nume "Author" 
 
+3. Adaugati coloana listen_count de tip integer la tabela Song si de fiecare data cand se intra in pagina unui Song, incrementati contorul
+
 Referinte:
+
 1. http://guides.rubyonrails.org/
 
 2. http://stackoverflow.com/questions/9192130/like-clause-with-rails-3-and-sqlite
